@@ -2,19 +2,6 @@
 
 A MERN stack application that allows users to fetch images based on their mood, incorporating safe mode and NSFW filtering for a tailored browsing experience.
 
----
-
-## 📚 Table of Contents
-
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 ## 📖 About the Project
 
