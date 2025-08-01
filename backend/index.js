@@ -94,7 +94,7 @@ const updateUserActivity = async (
 app.get("/api/test", (req, res) => {
   return res
     .status(200)
-    .json({ success: true, message: "backend is up and running" });
+    .json({ success: true, message: "backend is up and running..." });
 });
 
 // Route to fetch image by type
