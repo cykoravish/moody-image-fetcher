@@ -8,7 +8,10 @@ import nodemailer from "nodemailer";
 
 dotenv.config();
 
-const app = express();
+const app = express({
+  origin:"https://moody-image-fetcher-frontend.onrender.com",
+  credentials:true
+});
 const PORT = process.env.PORT || 6000;
 
 app.use(cors());
