@@ -59,7 +59,7 @@ function App() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:6000";
+  const API_URL = import.meta.env.VITE_API_URL || "https://moody-image-fetcher.onrender.com";
 
   const fetchUserStats = async (sessionId) => {
     try {
